@@ -10,7 +10,7 @@ status = "paused"
 
 [project-context]
 name = "Планер-1"
-purpose = "Fifth Stealth Glider investigation: scope not yet specified. Reserved placeholder in the metadatastician Stealth Glider line."
+purpose = "Fifth Stealth Glider investigation (reserved): orbits around Riemann spheres on the Conway field. Планер is Russian for glider or sailplane, and Планер-1 echoes Спутник-1; the slug planer-1 is a transliteration, not 'planar'. Intent recorded 2026-09-02 (owner ruling); no implementation yet."
 completion-percentage = 0
 
 [position]
@@ -25,12 +25,12 @@ milestones = [
 
 [blockers-and-issues]
 issues = [
-  "Scope of this investigation is not yet specified; nothing beyond the reserved scaffold exists.",
+  "Intent is recorded (2026-09-02) but not specified; nothing beyond the reserved scaffold exists.",
 ]
 
 [critical-next-actions]
 actions = [
-  "Specify the investigation and record it in ECOSYSTEM [position] purpose and docs/status/ROADMAP.adoc.",
+  "Turn the recorded intent into a specification (question, boundaries, first gate) in docs/status/ROADMAP.adoc and ECOSYSTEM [position].",
   "Move CLADE phase from reserved to incubating when the first content lands.",
 ]
 

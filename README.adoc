@@ -9,15 +9,23 @@ image:https://img.shields.io/badge/Docs-CC--BY--SA--4.0-blue.svg?logo=creativeco
 image:https://img.shields.io/badge/RSR-Rhodium_Standard-9C27B0[Rhodium Standard Repository,link="https://github.com/hyperpolymath/rhodium-standard-repositories"]
 image:https://img.shields.io/badge/status-reserved-lightgrey[Reserved placeholder]
 
-_Fifth Stealth Glider investigation: scope not yet specified. Reserved placeholder in the metadatastician Stealth Glider line._
+_Fifth Stealth Glider investigation (reserved): orbits around Riemann spheres on the Conway field. Планер is Russian for glider or sailplane, and Планер-1 echoes Спутник-1; the slug planer-1 is a transliteration, not 'planar'. Intent recorded 2026-09-02 (owner ruling); no implementation yet._
 
 [IMPORTANT]
 ====
 This repository is a *reserved placeholder*. It holds the project's identity,
-its position in the Stealth Glider line and the estate scaffold. It contains no
-implementation, no specification and no playable artefact. The investigation's
-scope will be filled in by pull request when it is specified.
+its position in the Stealth Glider line, the recorded intent (below) and the
+estate scaffold. It contains no implementation, no formal specification and no
+playable artefact. Work begins by pull request; the CLADE phase moves to
+`incubating` only when the first content lands.
 ====
+
+== Intent
+
+This investigation is meant to handle orbits around Riemann spheres, taking the line from a flat field to motion around a compactified plane. The name is a joke on Спутник-1: Планер is the Russian word for a glider or sailplane (not a powered plane, which would be самолёт), so Планер-1 reads as "Glider-1", the orbital one. The slug `planer-1` is the transliteration; it is not "planar", which is precisely what a Riemann sphere is not. How the orbits are represented on the field, and what gates they must pass, is not yet specified.
+
+Recorded 2026-09-02 by owner ruling. Intent is not work begun: the CLADE phase
+stays `reserved` until the first content lands.
 
 == Position in the line
 

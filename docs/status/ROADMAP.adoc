@@ -4,16 +4,21 @@
 
 == Current status
 
-Reserved. This is the fifth investigation in the Stealth Glider line; its scope
-is not yet specified. The series roadmap lives in the coordination hub,
+Reserved, with intent recorded. This is the fifth investigation in the Stealth
+Glider line. The series roadmap lives in the coordination hub,
 https://github.com/metadatastician/stealth-glider-ecosystem[stealth-glider-ecosystem].
+
+== Intent (recorded 2026-09-02, owner ruling)
+
+This investigation is meant to handle orbits around Riemann spheres, taking the line from a flat field to motion around a compactified plane. The name is a joke on Спутник-1: Планер is the Russian word for a glider or sailplane (not a powered plane, which would be самолёт), so Планер-1 reads as "Glider-1", the orbital one. The slug `planer-1` is the transliteration; it is not "planar", which is precisely what a Riemann sphere is not. How the orbits are represented on the field, and what gates they must pass, is not yet specified.
 
 == Milestones
 
 === Reserved (done)
 * [x] Identity, lineage and estate scaffold minted from rsr-template-repo
+* [x] Intent recorded (2026-09-02, owner ruling)
 
 === Specified (next)
-* [ ] Record the investigation's question and boundaries here and in
-      `machine-readable/descriptiles/ECOSYSTEM.a2ml`
+* [ ] Turn the recorded intent into a specification: question, boundaries and
+      first gate, here and in `machine-readable/descriptiles/ECOSYSTEM.a2ml`
 * [ ] Move CLADE phase from `reserved` to `incubating`

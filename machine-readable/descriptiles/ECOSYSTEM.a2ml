@@ -6,10 +6,10 @@ ecosystem = "metadatastician"
 
 [position]
 type = "interactive-experience"
-purpose = "Fifth Stealth Glider investigation: scope not yet specified. Reserved placeholder in the metadatastician Stealth Glider line."
+purpose = "Fifth Stealth Glider investigation (reserved): orbits around Riemann spheres on the Conway field. Планер is Russian for glider or sailplane, and Планер-1 echoes Спутник-1; the slug planer-1 is a transliteration, not 'planar'. Intent recorded 2026-09-02 (owner ruling); no implementation yet."
 what-this-is-not = [
   "a shipped or playable game",
-  "a specification of what this investigation will contain",
+  "a specification of the orbital mechanics (only the intent is recorded)",
   "a rename or fork of any earlier Stealth Glider project",
   "the coordination hub for the line",
 ]
@@ -17,7 +17,7 @@ what-this-is-not = [
 [pipeline]
 position = "fifth Stealth Glider investigation"
 chain = "f19-stealth-glider -> f117a-stealth-glider -> sr71-blackglider -> x15-rocket-glider -> planer-1 -> enterglide-ncc-137-k -> tardis-rule-disruption"
-notes = "Reserved slot. Scope is filled by pull request once the investigation is specified; until then this repository holds only its identity, its place in the line and the estate scaffold."
+notes = "Reserved slot with intent recorded 2026-09-02 (owner ruling). Intent is not work begun: the phase stays reserved until the first content lands by pull request; until then this repository holds its identity, its place in the line, the recorded intent and the estate scaffold."
 coordination = "metadatastician/stealth-glider-ecosystem"
 
 [related-projects]
