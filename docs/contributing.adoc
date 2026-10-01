@@ -15,9 +15,10 @@ Prerequisites — the minimum versions and where to get them:
 
 * `<tool 1>` v`<version>` — `<install instruction>`.
 * `<tool 2>` v`<version>` — `<install instruction>`.
-* GPG signing key configured (estate policy — all commits must be
-  signed). See
-  link:https://github.com/hyperpolymath/standards/blob/main/docs/secure-coding-training.md[standards/docs/secure-coding-training.md].
+* People and interactive agents: an SSH key registered on GitHub as a
+  signing key, with `gpg.format=ssh`, `user.signingkey=<key>.pub`, and
+  `commit.gpgsign=true`. The committer email must be verified on that account.
+  See link:https://github.com/hyperpolymath/standards/blob/main/docs/SIGNING-POLICY.adoc[SIGNING-POLICY].
 
 One-shot setup:
 
@@ -50,8 +51,12 @@ just fmt         # auto-format
 just lint        # static checks
 ----
 
-* All commits must be **GPG-signed** (CI enforces; see
-  link:https://github.com/hyperpolymath/standards[standards]).
+* Every commit that reaches the default branch must be signed; a ruleset
+  refuses unsigned pushes. People and interactive agents use SSH signing
+  as configured above.
+* Apps, bots, and workflows never `git push` local commits. They write
+  through the API (`createCommitOnBranch` or the estate `signed-push` action)
+  so that GitHub signs each commit.
 * All source files must carry an **SPDX-License-Identifier** header
   (CI enforces).
 * Conventional commits — `feat`, `fix`, `chore`, `refactor`, `docs`,

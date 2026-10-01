@@ -2,6 +2,7 @@
 SPDX-License-Identifier: CC-BY-SA-4.0
 Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
 -->
+```bash
 # Clone the repository
 git clone https://github.com/metadatastician/planer-1.git
 cd planer-1
@@ -99,6 +100,7 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 [optional body]
 
 [optional footer]
+```
 
 ## Signed commits
 
